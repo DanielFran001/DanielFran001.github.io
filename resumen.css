@@ -1,0 +1,88 @@
+.Resumen{
+    text-align: center;
+    margin-top: 200px;
+    
+}
+
+.educacion{
+    color: var(--secundary-text);
+    font-size: 25px;
+}
+
+.resumenDV{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.texto1{
+    border-style: solid;
+    border-color: #FFCB43;
+    border-radius: 10px;
+    margin: 15px;
+    max-width: 550px;
+}
+.texto2{
+    border-style: solid;
+    border-color: #FFCB43;
+    border-radius: 10px;
+    margin: 15px;
+    max-width: 550px;
+}
+
+.fecha1{
+    text-align: left;
+    margin-left: 3%;
+}
+.fecha2{
+    text-align: left;
+    margin-left: 3%;
+}
+
+@media(min-width: 750px){
+    .Resumen{
+        padding-left: 50px;
+        margin: 150px auto;
+        max-width: 980px;
+    }   
+
+    .gridXP{
+        display: grid;
+        grid-template-columns: auto auto 2px;
+    }
+    
+    
+    .educacion{
+        color: var(--secundary-text);
+        font-size: 25px;
+    }
+    
+    .resumenDV{
+        font-size: 50px;
+        margin-bottom: 40px;
+    }
+    
+    .texto1{
+        border-style: solid;
+        border-color: #FFCB43;
+        border-radius: 10px;
+        margin: 15px;
+       
+    }
+    .texto2{
+        border-style: solid;
+        border-color: #FFCB43;
+        border-radius: 10px;
+        margin: 15px;
+       
+    }
+    
+    .fecha1{
+        text-align: left;
+        margin-left: 3%;
+    }
+    .fecha2{
+        text-align: left;
+        margin-left: 3%;
+    }
+  
+}

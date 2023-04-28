@@ -1,0 +1,32 @@
+:root {
+    --theme-color: #21213B;
+    --theme-secundary: #1A1A33;
+    --text-color: white;
+    --secundary-text: #FFCB43;
+    --terciary-text: #959595;
+   
+  }
+
+@font-face {
+    font-family: 'Iceberg';
+    src: url(fuente/Iceberg-Regular.ttf);
+}
+body{
+    font-family: 'Iceberg';
+    background-color: var(--theme-color);
+    color: var(--text-color);
+    padding-top: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+section[id]{
+    scroll-margin-top: 90px;
+}

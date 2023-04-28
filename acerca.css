@@ -1,0 +1,47 @@
+.AInfo1{
+    font-size: 50px;
+}
+
+.AInfo2{
+    color: var(--terciary-text);
+}
+
+.Acerca{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.contenedorInfo{
+    border-style: solid;
+    border-color: #FFCB43;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.descargaBtn{ 
+    background: #FFCB43;
+    border-color: #FFCB43;
+    color: var(--primary-text);
+    border-radius: 10px;
+    padding: 8px;
+    cursor: pointer;
+    margin: 15px;
+}
+
+@media(min-width: 750px){
+    
+    .Acerca{
+        text-align: left;
+        max-width: 980px;
+        padding-left: 50px;
+        margin: 0 auto
+    }
+    
+    .contenedorInfo{
+        border-style: solid;
+        border-color: #FFCB43;
+        border-radius: 10px;
+        max-width: 500px;
+        padding: 15px;
+    }
+}

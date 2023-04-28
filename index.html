@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="barra.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="acerca.css">
+    <link rel="stylesheet" href="resumen.css">
+    <link rel="stylesheet" href="portafolio.css">
+    <link rel="stylesheet" href="contacto.css">
+    <script defer src="JavaScript/menu.js"></script>
+    <link rel="shortcut icon" href="imagenes/MiniLogo.png" type="image/x-icon">
+    <title>Portafolio</title>
+</head>
+    <header class="menuSuperior">
+        <nav class="navMenu">
+            <a href="#" class="logo">
+                <img height="50" src="imagenes/Logo.png" alt="Logo">
+            </a>
+            <button class="abrirMenu" aria-label="Abrir menú">
+                <img height="50" src="imagenes/MH.svg" alt="Abrir menú">
+            </button>
+            <ul class="menu">
+                <button class="cerrarMenu" aria-label="Cerrar menú">
+                    <img src="imagenes/cerrar.svg" alt="Cerrar menú">
+                </button>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Acercade">Acerca de</a></li>
+                <li><a href="#Resumen">Resumen</a></li>
+                <li><a href="#Portafolio">Portafolio</a></li>
+                <div class="containContacto">
+                <li><a href="#contact">Contacto</a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <section class="Home" id="Home">
+        <div class="Info1">Hola! Soy</div>
+        <div class="Info2">Daniel Franco</div>
+        <div class="Info3">Estudiante de ultimo semestre de ingenieria de sistemas</div>
+        <a href="#contact"><button class="contactoBtn">Contactame</button></a>
+    </section>
+    <section class="Acerca" id="Acercade">
+        <div class="AInfo1">Acerca de mí</div>
+        <div class="AInfo2">Mi nombre es Daniel Franco Henao, Soy estudiante de ultimo semestre de ingeniería de sistemas, siempre he asimilado de la mejor forma las materias propias de la ingeniería de sistemas, comprendiendo así su contenido, y no deteniéndome ahí, si no siguiendo de forma empírica el proceso de adquirir el conocimiento debido a las constantes actualizaciones día a día.</div>
+        <div class="contenedorInfo">
+            <div class="containInfo">
+                <div class="linea1">NOMBRE: Daniel Franco Henao</div>
+                <div class="linea2">EDAD: 22</div>
+                <div class="linea3">TELEFONO: +57 3014107465</div>
+                <div class="linea4">DIRECCIÓN: PEREIRA, COLOMBIA</div>
+                <div class="linea4">EMAIL:  daniel-francoh@unilibre.edu.co</div>
+            </div>   
+        </div>
+        <button class="descargaBtn">Descargar CV</button>
+    </section>
+    <section class="Resumen" id="Resumen">
+        <div class="educacion">
+            Educación
+        </div>
+        <div class="resumenDV">
+            Resumen
+        </div>
+        <div class="gridXP">
+            <div></div>
+            <div class="XPs">
+                <div class="textoFechas">
+                    <div class="fecha1">2018-2023</div>
+                    <div class="texto1">Inicié la educación superior en el año 2018 en La Universidad Libre de Pereira </div>
+                </div>
+            </div>
+            <div></div>
+            <div class="XPs2">
+                <div class="textoFechas2">
+                    <div class="fecha2">2006-2017</div>
+                    <div class="texto2">Cursé la educación en el colegio Salesiano San Juan Bosco de Dosquebradas</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portafolio" id="Portafolio">
+        <div class="zona1">
+            <div class="Titulo">
+                <div class="PES">Proyectos, Experiencia y Skills</div>
+                <div class="MP">Mi Portafolio</div>
+            </div>
+            <a class="imgPrin" href="http://www.princesasoncologicas.org/"><img class="imagen" height="250" src="imagenes/Prin.png" alt="Pagina Fundación"></a>
+            <div class="textoImagen">Pagina de la fundación Princesas Oncologicas</div>
+        </div>   
+        <div class="zona2">
+            <div class="cod">
+                <div class="tituloCoding">Coding</div>
+                <img class="logoscods" height="100" src="imagenes/cods.png" alt="Lenguajes de programacion">
+            </div>
+            <div class="other">
+                <div class="tituloOther">Otras Skills</div>
+                <img class="logosOther" height="100" src="imagenes/others.png" alt="Otras Skills">
+            </div>
+        </div>
+    </section>
+    <section class="Contacto" id="contact">
+        <div class="tituloContacto">Contacto</div>
+        <div class="detallesContacto">
+            <div class="detallesContactoGrupo">
+                <p class="tituloUno">Ubicación:</p>
+                <p class="TextoUno">Dosquebradas, Risaralda, Colombia                   661001</p>
+            </div>
+            <div class="detallesContactoGrupo">
+                <p class="tituloUno">Email:</p>
+                <p class="TextoUno">daniel-francoh@unilibre.com.co</p>
+            </div>
+            <div class="detallesContactoGrupo">
+                <p class="tituloUno">Telefono:</p>
+                <p class="TextoUno">+57 3014107465</p>
+            </div>
+        </div>
+        <form class="formatoContacto">
+            <div class="grupoFormato">
+                <label for="name">Nombre:</label>
+                <input required type="text" name="name" id="name">
+            </div>
+            <div class="grupoFormato">
+                <label for="correo">Correo:</label>
+                <input required type="email" name="correo" id="correo">
+            </div>
+            <div class="grupoFormato">
+                <label for="asunto">Asunto:</label>
+                <input required type="text" name="asunto" id="asunto">
+            </div>
+            <div class="grupoFormato">
+                <label for="mensaje">Mensaje:</label>
+                <textarea required name="mensaje" id="mensaje" rows="10"></textarea>
+            </div>
+            <button type="submit" class="contactoSubmit">Enviar</button>
+        </form>
+        <nav class="redes">
+            <ul class="listaRedes" >
+                <li>
+                    <a href="https://www.instagram.com/danielfra001/">
+                        <img src="imagenes/instagram.png" alt="Perfil Insta">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/dfra001">
+                        <img src="imagenes/facebook.png" alt="Perfil Facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/Danielfra001">
+                        <img src="imagenes/twitter.png" alt="Perfil Twitter">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://api.whatsapp.com/send?phone=573014107465">
+                        <img src="imagenes/whatsapp.png" alt="Whatsapp">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+</html>
